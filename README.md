@@ -1,6 +1,5 @@
 ## [Preview](https://pwosin.github.io/JS-game-Rock-Paper-Scissors/)
       
-## JS-game-Rock-Paper-Scissors
     
 ## General info
 Simple JS game "Rock Paper Scissors" 
