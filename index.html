@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+  </head>
+
+  <body class="bg-light">
+  <!-- header -->
+    <div class="header bg-info w-50 mx-auto rad">
+      <h1>Welcome in game:</h1>
+      <h1>Rock Paper Scissors</h1>
+      <i class="far fa-hand-rock px-5"></i>
+      <i class="far fa-hand-paper px-5"></i>
+      <i class="far fa-hand-scissors px-5"></i>
+    </div>
+  <!-- new game button -->
+    <div id="newGame">
+        <button id="startGame" class="rad">New Game</button>
+    </div>
+  <!-- buttony do gry -->
+    <div id="buttons" class="w-50 mx-auto">
+        <button id="rock" data-move="rock" class="player-move w-25 mx-4 rad">Rock<br><i class="far fa-hand-rock"></i></button>
+        <button id="paper" data-move="paper" class="player-move w-25 mx-4 rad">Paper<br><i class="far fa-hand-paper"></i></button>
+        <button id="scirssors" data-move="scissors" class="player-move w-25 mx-4 rad">Scirssors<br><i class="far fa-hand-scissors"></i></button>
+    </div>
+    <!-- result board tablica aktualnego wyniku -->
+    <div id="resultBoard" class="w-25 mx-auto text-center my-4 rad">
+        <div id="resultBoardHeader" class="h3"></div>
+        <div id="result" class="mx-auto"></div>
+    <!-- podsumowanie rozgrywki wyświetlane na koniec gry -->
+        <div id="summary" class="h3"></div>
+    </div>
+
+  <!-- score board na zapis tekstowy gry -->
+    <div id="scoreBoard" class="w-75 mx-auto text-center rad">
+      <h2 id="score"></h2>
+    </div>
+
+
+ 
+
+      <script  src="js/index.js"></script>
+
+
+
+
+  </body>
+
+</html>

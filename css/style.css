@@ -1,0 +1,23 @@
+body { padding: 10px; }
+
+.rad { border-radius: 10px; }
+
+.header { text-align: center; }
+
+.header .far { font-size: 40px; }
+
+.header .far:hover { transform: scale(1.15); transition: transform 0.5s ease-in-out; }
+
+#result { font-size: 25px; font-weight: bold; width: 300px; height: 100px; }
+
+#buttons button { color: #fff; background-color: #0099ff; font-size: 25px; display: inline; }
+
+#buttons button:hover { color: #000; background-color: #fff; }
+
+#buttons .far:hover { transform: scale(1.5); transition: transform 0.5s ease-in-out; }
+
+#newGame { text-align: center; padding: 30px; }
+
+#newGame #startGame { background-color: #1cb7f5; font-size: 30px; }
+
+#newGame #startGame:hover { color: white; }

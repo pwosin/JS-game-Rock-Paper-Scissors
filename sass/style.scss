@@ -1,0 +1,54 @@
+body {
+	padding: 10px;
+}
+.rad {
+	border-radius: 10px;
+}
+.header {
+	text-align: center;
+	.far {
+		font-size: 40px;
+		&:hover{
+			transform: scale(1.15);
+      transition: transform 0.5s ease-in-out;
+		}
+	}
+}
+
+
+#result {
+  font-size: 25px;
+	font-weight: bold;
+	width: 300px;
+	height: 100px;
+}
+#buttons {
+	button {
+		color:#fff;
+		background-color: rgb(0, 153, 255);
+		font-size: 25px;
+		display: inline;
+		
+		&:hover {
+			color: #000;
+			background-color: #fff;
+		}
+	}
+	.far{
+		&:hover{
+			transform: scale(1.5);
+			transition: transform 0.5s ease-in-out;
+		}
+	}
+}
+#newGame {
+  text-align: center;
+  padding: 30px;
+	#startGame {
+		background-color: #1cb7f5;
+		font-size: 30px;
+		&:hover {
+			color: white;
+		}
+	}
+}
